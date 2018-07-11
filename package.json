@@ -3,7 +3,7 @@
   "description": "Test",
   "version": "0.0.0",
   "main": "TestBot.js"
-  "scripts": {
+  "scripts" : {
     "start": "node bot.js"
   },
   "dependencies": {
