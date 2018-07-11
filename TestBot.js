@@ -5,4 +5,10 @@ Client.on("ready", () => {
     console.log("I'm ready!");
 });
 
+client.on("message", message => {
+    if (message.content === "hi") {
+        message.reply("Hello!")
+    }
+});        
+
 client.login(process.env.NDY0NDEwMzU1Njg3NDg5NTM4.Dh_tpA.ocBs-Ai30LNTqLWM-TuXyQ7Fcdo);
