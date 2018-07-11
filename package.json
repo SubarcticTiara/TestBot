@@ -3,8 +3,8 @@
   "description": "Test",
   "version": "0.0.0",
   "main": "TestBot.js"
-  "scripts" {
-    "start": "node TestBot.js"
+  "scripts": {
+    "start": "node bot.js"
   },
   "dependencies": {
     "discord.js": "11.1.0",
